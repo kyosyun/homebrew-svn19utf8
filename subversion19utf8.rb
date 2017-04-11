@@ -68,7 +68,7 @@ class Subversion19utf8 < Formula
     # Patch for Subversion handling of OS X UTF-8-MAC filename.
   if build.with? "unicode-path"
     patch :p0 do
-      url "https://raw.githubusercontent.com/kyosyun/homebrew-misc/master/unicode_path.patch"
+      url "https://raw.githubusercontent.com/kyosyun/homebrew-svn19utf8/master/unicode_path.patch"
     end
   end
 
