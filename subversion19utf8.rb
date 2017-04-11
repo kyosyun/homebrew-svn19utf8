@@ -20,7 +20,7 @@ class Subversion19utf8 < Formula
   option "with-perl", "Build Perl bindings"
   option "with-ruby", "Build Ruby bindings"
   option "with-gpg-agent", "Build with support for GPG Agent"
-  option "-unicode-path", "Build with support for OS X UTF-8-MAC filename"
+  option "with-unicode-path", "Build with support for OS X UTF-8-MAC filename"
 
 
   depends_on "pkg-config" => :build
