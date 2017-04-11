@@ -15,11 +15,15 @@ class Subversion19utf8 < Formula
   deprecated_option "java" => "with-java"
   deprecated_option "perl" => "with-perl"
   deprecated_option "ruby" => "with-ruby"
+  deprecated_option "unicode-path" => "with-unicode-path"
+
 
   option "with-java", "Build Java bindings"
   option "with-perl", "Build Perl bindings"
   option "with-ruby", "Build Ruby bindings"
   option "with-gpg-agent", "Build with support for GPG Agent"
+  option "with-unicode-path", "Build with support for OS X UTF-8-MAC filename"
+
 
   depends_on "pkg-config" => :build
   depends_on "apr-util"
