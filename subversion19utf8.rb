@@ -46,6 +46,7 @@ class Subversion19utf8 < Formula
     url "https://raw.githubusercontent.com/kyosyun/homebrew-svn19utf8/master/serf-1.3.9_fixed.tar.bz2"
 #    url "https://www.apache.org/dyn/closer.cgi?path=serf/serf-1.3.9.tar.bz2"
 #   mirror "https://archive.apache.org/dist/serf/serf-1.3.9.tar.bz2"
+     sha256 "9d8723d765512ed0b58acca2811c7c2da25a98779012432144095fca9fe7731a"
 #    sha256 "549c2d21c577a8a9c0450facb5cca809f26591f048e466552240947bdf7a87cc"
   end
 
