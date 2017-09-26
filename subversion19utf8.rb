@@ -43,9 +43,10 @@ class Subversion19utf8 < Formula
   depends_on :java => :optional
 
   resource "serf" do
-    url "https://www.apache.org/dyn/closer.cgi?path=serf/serf-1.3.9.tar.bz2"
-    mirror "https://archive.apache.org/dist/serf/serf-1.3.9.tar.bz2"
-    sha256 "549c2d21c577a8a9c0450facb5cca809f26591f048e466552240947bdf7a87cc"
+    url "https://raw.githubusercontent.com/kyosyun/homebrew-svn19utf8/master/serf-1.3.9_fixed.tar.bz2"
+#    url "https://www.apache.org/dyn/closer.cgi?path=serf/serf-1.3.9.tar.bz2"
+#   mirror "https://archive.apache.org/dist/serf/serf-1.3.9.tar.bz2"
+#    sha256 "549c2d21c577a8a9c0450facb5cca809f26591f048e466552240947bdf7a87cc"
   end
 
   # Fix #23993 by stripping flags swig can't handle from SWIG_CPPFLAGS
