@@ -29,7 +29,7 @@ class Subversion19utf8 < Formula
 
   # Always build against Homebrew versions instead of system versions for consistency.
   depends_on "sqlite"
-  depends_on :python@2 => :optional
+  depends_on python@2 => :optional
 
   # Bindings require swig
   depends_on "swig" if build.with?("perl") || build.with?("python") || build.with?("ruby")
